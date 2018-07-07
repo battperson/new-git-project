@@ -53,13 +53,16 @@ nav{
 .open{
       transform: translate(0px,0);
     }
+    main{
+      transition: background 10s ease;
+      -webkit-transition: background 10s ease; /* Chrome and Safari */
+      background-color: lightgrey;
+    }
 #hearse{
 width: 100%;
 height: 100%;
 /* display: flex; */
-transition: background 10s ease;
--webkit-transition: background 10s ease; /* Chrome and Safari */
-background-color: lightgrey;
+
 }
 #hamburger {
                       width: 40px;
@@ -156,7 +159,7 @@ header{
       /* padding-left: auto;
       padding-right: auto; */
     }
-    #hearse:hover{
+    main:hover{
       background-color: #2d3c49;
     }
   }
