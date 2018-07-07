@@ -61,7 +61,7 @@ transition: background 10s ease;
 -webkit-transition: background 10s ease; /* Chrome and Safari */
 background-color: lightgrey;
 }
-a#menu svg {
+#hamburger {
                       width: 40px;
                       fill: #000;
                   }
