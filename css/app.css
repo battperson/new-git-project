@@ -57,7 +57,7 @@ nav{
 width: 100%;
  /* height: 100%;  */
 /* display: flex; */
-transition: : background 10s ease;
+transition: background 10s ease;
 -webkit-transition: background 10s ease; /* Chrome and Safari */
 background-color: lightgrey;
 }
@@ -150,15 +150,19 @@ a#menu svg {
     }
     .placeHolder{
       max-width: 600px;
-      padding-left: auto;
-      padding-right: auto;
+      /* padding-left: auto;
+      padding-right: auto; */
     }
     #hearse:hover{
       background-color: #2d3c49;
     }
   }
-  @media screen and (min-width:800px) {
-
+  @media screen and (min-width:650px) {
+body{
+  width: 650px;
+  margin-left: auto;
+  margin-right: auto;
+}
     .logo img{
       display: block;
     margin-left: auto;
