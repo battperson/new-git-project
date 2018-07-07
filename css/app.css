@@ -55,7 +55,7 @@ nav{
     }
 #hearse{
 width: 100%;
- /* height: 100%;  */
+height: 100%;
 /* display: flex; */
 transition: background 10s ease;
 -webkit-transition: background 10s ease; /* Chrome and Safari */
@@ -93,7 +93,7 @@ a#menu svg {
 }
 /* Code perteining to drawer fucntion */
 
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 0px) {
   .logo img{
     display: block;
   margin-left: auto;
@@ -128,6 +128,9 @@ a#menu svg {
 }
   }
   @media screen and (min-width: 600px) {
+header{
+  height: 205px;
+}
 .Header{
   height: 205px;
 }
@@ -145,9 +148,9 @@ a#menu svg {
     margin-right: auto;
     width: 50%;
       }
-    .item{
-      width: 40%;
-    }
+      .item{
+        width: 40%;
+      }
     .placeHolder{
       max-width: 600px;
       /* padding-left: auto;
@@ -157,24 +160,16 @@ a#menu svg {
       background-color: #2d3c49;
     }
   }
-  @media screen and (min-width:650px) {
+  @media screen and (min-width:800px) {
 body{
-  width: 650px;
+  width: 800px;
   margin-left: auto;
   margin-right: auto;
 }
-    .logo img{
-      display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-      }
-      .item{
-      width: 30%;
-    }
-    #hearse, .Header{
-      max-width: 90%;
-      margin-left: auto;
-      margin-right: auto;
-      }
+header{
+  height: 205px;
+}
+.item{
+  width: 30%;
+}
   }
